@@ -1,0 +1,15 @@
+banner {
+    @include flex-row;
+
+    h1 {
+        color: $LWred;
+    }
+
+    span {
+        color: $LWpurple;
+    }
+}
+
+.banner-copy {
+    width: 40vw;
+}

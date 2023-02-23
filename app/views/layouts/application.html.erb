@@ -6,7 +6,9 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
+    <%# points to 'app/assets/stylesheets/application.scss' %>
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%# points to app/javascrips/application.js %>
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
   </head>
 
